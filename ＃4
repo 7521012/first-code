@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main (){
+	int much,discount1,discount2,discount3,discount4;
+	printf("please much\n");
+	scanf("%d",&much);
+	
+	discount1=much*0.9;
+	discount2=much*0.7;
+	discount3=0.5*much;
+	discount4=0.2*much;
+	printf("%d,%d,%d,%d\n",discount1,discount2,discount3,discount4);
+	}
