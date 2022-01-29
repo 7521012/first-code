@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+  int milk=138,juice=198,money=1000,change,payment;
+  double tax=1.05;
+    payment=(milk*2+juice*1)*tax;
+    change=money-(int)payment;
+    printf("%d-(%d*%d+%d*%d)*%d=%d\n",money,milk,2,juice,1,tax,change)
+    return 0
+    }
+    
