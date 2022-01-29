@@ -1,0 +1,11 @@
+#include <stdio.h>
+ 
+int main (){
+	int olympic,season;
+	printf("enter the year :");
+	scanf("%d",&olympic);
+	season=olympic%4;
+	if(season==0)printf("summer\n");
+	if(season==2 && olympic%2==0)printf("winter\n");
+	if(season!=0 && olympic%2!=0)printf("not take part\n");
+	}
